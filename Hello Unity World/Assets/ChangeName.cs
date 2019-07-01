@@ -16,7 +16,7 @@ public class ChangeName : MonoBehaviour
         TextMeshProUGUI myText = GetComponent<TextMeshProUGUI>();
        if (Input.GetKeyDown("space"))
        {
-           myText.SetText("Hello World from Kaitlyn Monroe!");
+           myText.SetText("Hello World! My name is Kaitlyn Monroe!");
            print ("Space key was pressed");
        } 
        if (Input.GetKeyDown(KeyCode.Escape)){
